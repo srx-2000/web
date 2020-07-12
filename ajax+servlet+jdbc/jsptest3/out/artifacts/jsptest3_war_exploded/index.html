@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/index/login.css">
+    <script src="http://www.jq22.com/jquery/jquery-1.7.1.js"></script>
+<!--    <script type="text/javascript" src="js/index/login.js"></script>-->
+    <title>登录界面</title>
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <form action="userServlet" class="login-form" method="post" name="login">
+
+        <h2>登录</h2>
+        <input type="hidden" value="login" name="action">
+        <input type="text" name="adminName" id="username" placeholder="用户名" required>
+        <span id="username_error"></span>
+        <input type="password" name="password" id="password" placeholder="密码" required>
+        <span id="password_error"></span>
+        <button type="submit" id="submit">登录</button>
+        <span id="submit_error"></span>
+        <button type="button" onclick="location.href='/jsptest3_war_exploded/register.html'">注册</button>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>

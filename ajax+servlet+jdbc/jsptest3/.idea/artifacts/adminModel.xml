@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="adminModel">
+    <output-path>$PROJECT_DIR$/out/artifacts/adminModel</output-path>
+    <root id="archive" name="adminModel.war">
+      <element id="artifact" artifact-name="jsptest3:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="gson-2.2.4" />
+          <element id="library" level="project" name="commons-beanutils-1.8.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
